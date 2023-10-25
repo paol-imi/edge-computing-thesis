@@ -20,6 +20,14 @@
       <module name="com.openfaas.session-offloading-manager.main" target="17" />
       <module name="com.openfaas.session-offloading-manager.test" target="17" />
       <module name="Deployer" target="17" />
+      <module name="edge-computing-thesis.lib" target="17" />
+      <module name="edge-computing-thesis.lib.main" target="17" />
+      <module name="edge-computing-thesis.lib.test" target="17" />
+      <module name="edge-computing-thesis.logger" target="17" />
+      <module name="edge-computing-thesis.logger.main" target="17" />
+      <module name="edge-computing-thesis.logger.test" target="17" />
+      <module name="edge-computing-thesis.utils.logger.main" target="17" />
+      <module name="edge-computing-thesis.utils.logger.test" target="17" />
       <module name="edgeDb.main" target="17" />
       <module name="edgeDb.test" target="17" />
       <module name="empty-function" target="17" />
@@ -31,6 +39,9 @@
       <module name="function" target="17" />
       <module name="function.main" target="17" />
       <module name="function.test" target="17" />
+      <module name="org.example.edge-computing-thesis.utils.logger" target="17" />
+      <module name="org.example.edge-computing-thesis.utils.logger.main" target="17" />
+      <module name="org.example.edge-computing-thesis.utils.logger.test" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

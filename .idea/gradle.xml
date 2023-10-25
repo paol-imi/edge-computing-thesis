@@ -27,6 +27,17 @@
           </set>
         </option>
       </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/refactor" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/refactor" />
+            <option value="$PROJECT_DIR$/refactor/deployer" />
+            <option value="$PROJECT_DIR$/refactor/edgedb" />
+            <option value="$PROJECT_DIR$/refactor/infrastructure" />
+          </set>
+        </option>
+      </GradleProjectSettings>
     </option>
   </component>
 </project>

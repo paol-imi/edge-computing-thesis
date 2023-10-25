@@ -1,13 +1,11 @@
 #!/bin/sh
-if [ $# -eq 0 ]
-then
+if [ $# -eq 0 ]; then
     echo One argument needed: profilename
     exit 1
 fi
 
 kubectl config use-context $1
 printf "\n"
-
 
 docker build -t k3d-docker-io.localhost:5000/proxy:latest .
 docker push k3d-docker-io.localhost:5000/proxy:latest
@@ -25,7 +23,7 @@ if [[ -n "$external_ip" ]]; then
 
     # Open the browser with the URL
     if [[ "$(expr substr $(uname -s) 1 5)" == "Linux" ]]; then
-        xdg-open "$url"  # Linux
+        xdg-open "$url" # Linux
     else
         echo "Unsupported operating system. Please open the browser manually and navigate to:"
         echo "$url"

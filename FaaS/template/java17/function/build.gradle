@@ -7,6 +7,7 @@ java {
     sourceCompatibility = JavaVersion.VERSION_17
     targetCompatibility = JavaVersion.VERSION_17
 }
+
 dependencies {
     implementation 'com.openfaas:entrypoint:2.1.0'
     testImplementation("org.junit.jupiter:junit-jupiter:5.9.2")
@@ -16,7 +17,6 @@ dependencies {
 
 // In this section you declare where to find the dependencies of your project
 repositories {
-
     // Use jcenter for resolving your dependencies.
     // You can declare any Maven/Ivy/file repository here.
     mavenCentral()
